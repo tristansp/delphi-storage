@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+.title {
+    font-family: "montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+    padding:0;
+    font-family: "roboto", sans-serif;
+}
+
+.fs{
+  height: 85vh;
+  margin-top: 47px;
+}
+
+div.aboutus{
+  background-color: #f2f2f2;
+  overflow: scroll;
+}
+
+nav {
+  width: 100vw;
+}
+
+nav ul.nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+nav ul.nav-items p.brand {
+    float: left;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul.nav-items li.nav-item {
+  float: left;
+}
+
+nav ul.nav-items li.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul.nav-items li.nav-item a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.jumbotron{
+  text-align: center;
+  padding-top: 150px;
+  background-color: #f2f2f2;
+}
+
+.cards {
+  width: inherit;
+  margin-top: 100px;
+  padding-bottom: 45px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: box-shadow 0.3s;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 7vw 0 7vw;
+  padding-top: 15px;
+  overflow: auto;
+}
+
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
+}
+
+.card h4 {
+  text-align: center;
+}
+
+.card p {
+  height: 10vh;
+  padding: 0.5vw;
+}
+
+.mission{
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-top: 2vh;
+}
+
+.heading{
+  margin-top: 14vh;
+  margin-left: 13vw;
+  margin-right: 15vw;
+  text-align: left;
+}
+
+#aboutus-paragraph{
+  margin-top: 2vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  text-align: left;
+}
+
+.peoplecards {
+  width: inherit;
+  margin-top: 100px;
+  padding-bottom: 45px;
+}
+
+.peoplecards .card {
+  width: 20vw;
+  height: 13vw;
+  margin: 2.5vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.spacer {
+  width: 60px;
+}
+
+.faq-card {
+  margin-top: 18.5vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  border: solid;
+  margin: 3vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  padding: 1vh;
+  border-color: #4CAF50;
+  border-radius: 1vh;
+}
+
+.faq-card .q {
+  margin-top: 7vh;
+  margin-left: 13vw;
+  margin-right: 13vw;
+  text-align: left;
+}
+
+.faq-card .ans {
+  margin-top: 2vh;
+  margin-left: 13vw;
+  margin-right: 13vw;
+  text-align: left;
+}
+
+.footer {
+  position: fixed;
+  background-color: #4CAF50;
+  left: 0px;
+  bottom: 0px;
+  color: white;
+  width: 100vw;
+  padding-top: 2.5vh;
+  padding-bottom: 3vh;
+  margin: 0px;
+}
+
+.email {
+  color: white;
+  text-decoration: underline;
+}
+
+.faq {
+  padding-bottom: 10vh;
+}
+
+.values{
+  padding-bottom: 10vh;
+  text-align: left;
+  margin-top: 2vh;
+  margin-left: 15vw;
+  margin-right: 7vw;
+}
+
+#person a{
+  color:#333;
+}
